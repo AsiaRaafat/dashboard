@@ -1,0 +1,141 @@
+.table-container {
+  width: 100%; 
+  margin-left: 0 !important;
+  margin-right: 0;
+  padding: 16px 0px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 16px;
+  overflow-x: hidden;
+}
+
+.table-header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .table-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.input-search {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-search:focus {
+  outline: none;
+  border-color: #858585; 
+  box-shadow: 0 0 5px rgba(77, 78, 80, 0.5);
+}
+
+.select-sort {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  max-width: 200px;
+}
+
+.select-sort:hover,
+.select-sort:focus {
+  border-color: #5f656d;
+  outline: none;
+  box-shadow: 0 0 5px rgba(48, 47, 47, 0.5);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px; 
+}
+
+.data-table thead tr {
+  background-color: #b9b9bb; 
+  border-radius: 12px;
+}
+
+.data-table thead th {
+  padding: 12px 16px;
+  font-weight: 600;
+  color: #1f2937;; 
+  text-align: left;
+  border-bottom: none;
+}
+
+.data-table tbody tr {
+  background-color: #ffff; 
+  transition: background-color 0.3s ease;
+  border-radius: 12px;
+}
+
+.data-table tbody tr:nth-child(odd) {
+  background-color: #ffff; 
+}
+
+.data-table tbody tr:hover {
+  background-color: #fee7c7; 
+  cursor: pointer;
+}
+
+.data-table td {
+  padding: 12px 16px;
+  color: #374151; 
+  vertical-align: middle;
+  border: none;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.page-button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #1f2937;;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.page-button.active {
+  background-color: black;
+  color: white;
+  cursor: default;
+}
+@media screen and (max-width: 767px) {
+  .table-container{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .table-container{
+    width: 100%;
+  }
+  }

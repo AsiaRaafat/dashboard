@@ -1,0 +1,58 @@
+.loginform{
+    background-color: #1f2937;
+    width: 40rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    top: 10vh;
+    left: 30rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+ @media (max-width : 768px){
+    .loginform{
+        width: 20rem;
+        height: 25rem;
+        width: 100%;
+        left: 0rem;
+        top: 0rem;
+    }
+    .input{
+          width: 10rem;
+          height: 2rem;
+    }
+ }
+.input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.5rem 0.5rem ;
+    border: 1px solid rgb(194, 192, 192);
+    /* color: white; */
+}
+.button{
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 0.5rem 0.5rem ;
+    border: 1px solid rgb(244, 243, 243);
+    background-color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.error{
+    color: red;
+    font-size: large;
+
+}
