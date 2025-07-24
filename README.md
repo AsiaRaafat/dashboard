@@ -38,8 +38,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
        4. data table got with axios and  displayed from MOCK API (JSON PLACE hOLDER) in a table where u can search using (pilteration , sort with time & date )
        5. Responsive dashboard adabted to different screen sizes
        6. technologies used(React, Next, chartjs, Tailwind , Reduxtoolkit , json place holder for the API )      
- فخ
-3ز
+ 
+
    
 
 
